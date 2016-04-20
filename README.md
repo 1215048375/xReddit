@@ -1,5 +1,5 @@
 xReddit     
-=======++
+=======
 [![Build Status](https://travis-ci.org/KevinOfNeu/xReddit.svg?branch=master)](https://travis-ci.org/KevinOfNeu/xReddit)
 
 [Reddit](https://www.reddit.com/) for Android, made with[React-Native](https://github.com/facebook/react-native).   
