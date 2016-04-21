@@ -3,7 +3,8 @@
     "version": "0.0.1",
     "private": true,
     "scripts": {
-        "start": "node node_modules/react-native/local-cli/cli.js start"
+        "start": "sh no_conflict.sh mobile &node node_modules/react-native/local-cli/cli.js start",
+        "desktop": "sh no_conflict.sh desktop & node node_modules/react-native-desktop/local-cli/cli.js start"
     },
     "dependencies": {
         "react": "^0.14.8",
@@ -12,7 +13,8 @@
         "react-redux": "^4.0.6",
         "redux": "^3.0.5",
         "redux-thunk": "^1.0.3",
-        "react-native-scrollable-tab-view": "^0.4.0"
+        "react-native-scrollable-tab-view": "^0.4.0",
+        "react-native-desktop": "^0.6.0"
     },
     "devDependencies": {
         "redux-devtools": "^3.2.0"
